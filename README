@@ -1,0 +1,13 @@
+
+Pour naviguer sur notre site, il est impératif de se connecter, sinon vous ne pourrez pas profiter pleinement de l'ensemble des fonctionnalités proposées sur notre site.
+Voici les étapes à suivre:
+
+	1) Ouvrir la page connexion.php,
+	2) Entrer l'identifiant et le mot de passe en utilisant la BDD
+	(identifiant est le champ numCarte dans la table utilisateurs)
+	(mot de passe est le champ mdp dans la table utilisateurs),
+	3) une fois ces deux informations renseignées, cliquez sur le 		bouton "Se connecter"
+
+NB : vous serez redirigé soit vers la page accueil.php si vous n'êtes qu'un simple joueur, soit vers la page admin.php si vous vous connectez en tant qu'administrateur, ou soit vers blackliste.php si vous êtes blacklisté par l'administrateur.
+
+Attention: si vous êtes blacklisté vous ne pourrez pas réserver un court de tennis
